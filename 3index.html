@@ -6,146 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=1.0, initial-scale=1.0">
     <title>3index.html</title>
+    <link rel="stylesheet" href="style.css"
 </head>
 
 <body>
-    <h2 align="left"> <u>Registration form</u></h2>
+    <h2> <u>Registration form</u></h2>
+    <div id="container-center">
     <form>
         <table cellpadding="10">
             <tr>
                 <td> <label for="First">First Name</label> </td>
-                <td> <input type="Text" id="First" size="30"></td>
+                <td> <input class="input1" type="Text" id="First" size="30"></td>
             </tr>
             <tr>
                 <td><label for="Last">Last Name</label></td>
-                <td><input type="Text" id="Last" size="30"></td>
+                <td><input class="input1" type="Text" id="Last" size="30"></td>
             </tr>
             <tr>
                 <td><label for="Nick">Nick Name</label></td>
-                0<td> <input type="Text" id="Nick" size="30"></td>
+                <td> <input class="input1" type="Text" id="Nick" size="30"></td>
             </tr>
             <tr>
                 <td><label for="mail">e-mail</label></td>
-                <td><input type="Text" id="mail" size="30"></td>
+                <td><input class="input1" type="Text" id="mail" size="30"></td>
             </tr>
             <tr>
                 <td><label for="Pass">Password</label></td>
-                <td><input type="Text" id="Pass" size="30"></td>
+                <td><input class="input1" type="Text" id="Pass" size="30"></td>
             </tr>
             <tr>
                 <td> <label for="Date">Date of Birth</label></td>
-                <td> <input type="Text" id="Date" size="30"></td>
+                <td> <input  class="input1" type="Text" id="Date" size="30"></td>
             </tr>
             <tr>
                 <td> <label>Gender</label></td>
-                <td> <input type="radio">Male</input> <input type="radio">Female</input> <input
-                        type="radio">Others</input></td>
+                <td> <input class="input1" name="status" type="radio">Male</input> <input type="radio" name="status">Female</input> <input
+                        type="radio" name="status">Others</input></td>
             </tr>
             <tr>
                 <td><label for="Mob">Mobile</label></td>
-                <td> <input type="text" id="Mob" size="30"></td>
+                <td> <input class="input1" type="text" id="Mob" size="30"></td>
             </tr>
             <tr>
-                <td><label for="Add">Address</label></td>
-                <td> <input type="text" id="Add" size="30"></td>
+                <td><label>Address</label></td>
+                <td> <input class="input1" size="30px"></input></td>
             </tr>
             <tr>
                 <td><label></label></td>
-                <td> <input type="submit"> <input type="reset"></td>
+                <td><button id="Sub">Submit</button><button id="Sub1">Submit</button></td>
             </tr>
         </table>
     </form>
-    <br/> <hr/>
-    <h3>Personal Details</h3>
-    <form>
-        <table cellpadding="10">
-            <tr>
-                <td> <label for="name">Name:</label></td>
-                <td><input type="text" id="name"></input></td>
-            </tr>
-            <tr>
-                <td> <label for="pass">Password:</label></td>
-                <td><input type="text" id="pass"></input></td>
-            </tr>
-            <tr>
-                <td> <label for="mail">E-mail id:</label></td>
-                <td><input type="text" id="mail"></input></td>
-            </tr>
-            <tr>
-                <td> <label>Gender:</label></td>
-                <td><input type="radio">Male</input> <input type="radio">Female</input></td>
-            </tr>
-            <tr>
-                <td> <label for="contact">Contact#:</label></td>
-                <td><input type="text" id="contact"></input></td>
-            </tr>
-            
-        </table>
-    </form>
-    <h3>Educational Qualification</h3>
-   <form>
-       <table cellpadding="10">
-           <tr>
-               <td><label>Degree:</label>
-        <td><select>
-            <option>--Select Group--</option>
-            <option>Master</option>
-            <option>Bachelor</option>
-        </select></td>
-        </td>
-        </tr>
-    <tr>
-        <td><label>Engineering:</label></td>
-        <td><select>
-            <option >--Select Group--</option>
-            <option>1</option>
-            <option>2</option>
-        </select></td>
-    </tr>
-    <tr>
-        <td><label>Hobbies:</label></td>
-        <td><input type="checkbox">Playing chess</input><input type="checkbox">Reading books</input></td>
-    </tr>
-    </table>
-   </form>
-   <h3>Address</h3>
-   <form>
-       <input >
-   </form>
-   <br/>
-   <form>
-    <label>Attach Resume:</label>
-    <input type="file">
-   </form>
-   <br/> <hr/>
-   <h3 align="left">KM Custom HTML Form Example Using AppleScript</h3>
-       <h4 align="left">(by JMichaelTX)</h4>
-    <form>
-        <table border>
-            <tr border>
-                <th><label>Name:</label></th>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <th><label>Email:</label></th>
-                <td><input type="text"></td>
-            </tr>
-            <tr>
-                <th><label>Password:</label></th>
-                <td><input type="password"></td>
-            </tr>
-            <tr>
-                <td rowspan="2" height="50"> <label ><label><b>Approval Required:</b>Click on the button or next to check/uncheck.</label></td>
-                <td rowspan="2"><input type="checkbox">Do you approve?</td>
-            </tr>
-            <tr>
-                <td rowspan="3" > <label ><label><b>Pick Your Favorite:</b>Click on the button or next to select.</label></td>
-                <td rowspan="3"><input type="radio">Coice A</td>
-                </tr>
-            
-        
-        </table>
-    </form>
+</div>
 
 </body>
 
